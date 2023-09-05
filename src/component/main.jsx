@@ -5,6 +5,7 @@ import axios from 'axios';
 import TopBanner from "../img/TopBanner.PNG";
 import SecondBanner from "../img/SecondBanner.PNG";
 import Header from "./header";
+import styles from '../module.css/main.module.css';
 
 function Main() {
   const navigate = useNavigate();
@@ -57,7 +58,7 @@ function Main() {
 
   return (
     <div>
-      <div>
+      <div classname={styles.banner}>
         <Header />
         <img
           id="TopBanner"

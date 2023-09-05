@@ -1,0 +1,49 @@
+.banner {
+    margin: 10px;
+    text-align: center;
+  }
+
+#TopBanner {
+    cursor: pointer;
+    
+  }
+  
+  
+  #SecondBanner {
+    cursor: pointer;
+    
+  }
+  
+
+  .product-container {
+    margin: 10px;
+    text-align: center;
+   
+  }
+  
+
+  .select-dropdown {
+   
+  }
+  
+  
+  h1 {
+   
+  }
+  
+  
+  .loading-message {
+    
+  }
+  
+  .error-message {
+    
+  }
+  
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
