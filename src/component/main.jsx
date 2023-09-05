@@ -58,42 +58,50 @@ function Main() {
 
   return (
     <div>
-      <div classname={styles.banner}>
+      <div>
         <Header />
         <img
-          id="TopBanner"
-          src={TopBanner}
-          alt="TopBanner"
-          onClick={handleTopBannerClick}
-        />
-        <h1>새로운 상품</h1>
-        <div>
-          <select onChange={handleSortOrderChange}>
-            <option value="">정렬 선택</option>
-            <option value="내림차순">내림차순</option>
-            <option value="오름차순">오름차순</option>
-          </select>
-        </div>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
-          {products.map((product) => (
-            <div key={product.id} style={{ margin: "10px", textAlign: "center" }}>
-              <img
-                src={product.url}
-                alt={product.name}
-                style={{ width: '200px', height: '350px' }}
-              />
-              <div>{product.productName}</div>
-              <div>{product.price}원</div>
-            </div>
-          ))}
-        </div>
-        <img
-          id="SecondBanner"
-          src={SecondBanner}
-          alt="SecondBanner"
-          onClick={handleSecondBannerClick}
-        />
-        <h1>{userId}님의 추천 상품</h1>
+  id="TopBanner"
+  src={TopBanner}
+  alt="TopBanner"
+  onClick={handleTopBannerClick}
+  className={styles.bannerImage}
+/>
+
+<h1 className={styles.heading}>새로운 상품</h1>
+
+<div className={styles.selectDropdownContainer}>
+  <select onChange={handleSortOrderChange} className={styles.selectDropdown}>
+    <option value="">정렬 선택</option>
+    <option value="내림차순">내림차순</option>
+    <option value="오름차순">오름차순</option>
+  </select>
+</div>
+
+<div className={styles.flexContainer}>
+  {products.map((product) => (
+    <div key={product.id} className={styles.productContainer}>
+      <img
+        src={product.url}
+        alt={product.name}
+        style={{ width: '200px', height: '350px' }}
+      />
+      <div>{product.productName}</div>
+      <div>{product.price}원</div>
+    </div>
+  ))}
+</div>
+
+<img
+  id="SecondBanner"
+  src={SecondBanner}
+  alt="SecondBanner"
+  onClick={handleSecondBannerClick}
+  className={styles.bannerImage}
+/>
+
+<h1>{userId}님의 추천 상품</h1>
+
       </div>
     </div>
   );
