@@ -12,7 +12,7 @@ import JoinOk from "./component/JoinOk";
 import EventPage from "./component/eventPage";
 import Footer from "./component/footer";
 import ProductDetail from "./component/productDetail";
-import Category from "./component/Category";
+// import Category from "./component/Category";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route path="/EventPage" element = {<EventPage/>}/>
           <Route path="/Footer" element = {<Footer/>}/>
           <Route path="/ProductDetail" element ={<ProductDetail/>}/>
-          <Route path="/Category" element = {<Category/>}/>
+          {/* <Route path="/Category" element = {<Category/>}/> */}
         </Routes>
       </BrowserRouter>
     </div>
