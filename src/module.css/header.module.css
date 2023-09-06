@@ -1,9 +1,27 @@
-
-button {
-    
-    border:none;
-    color: white ;
-
+*{
+    margin : 0;
+    padding : 0;
+}
+.Header{
+    width : 1061px;
+    width : 100%;
+    height: 80px;
+}
+.Headermodel > img  { 
+    position : absolute;
+    width : 188px;
+    height: 60px;
+    transform: translate(5px, 10px);
 }
 
-.Header
+.button #Headerbuttontwo {
+    border : none;
+}
+
+.Headerbar {
+    transform: translate(30%, 100%);
+    text-decoration: none;
+    border:none;
+    color:aqua;
+    
+}

@@ -49,6 +49,7 @@ function Header() {
   const UserId = localStorage.getItem("UserId");
 
   return (
+    <div className={styles.Header}>
     <div className={styles.Headermodel}>
       <img
         id="Headerlogo"
@@ -56,8 +57,7 @@ function Header() {
         src={Logo}
         alt="Logo"
       />
-
-   
+      <div className={styles.Headerbar}>
       <input
         type="text"
         value={searchQuery}
@@ -65,14 +65,12 @@ function Header() {
         placeholder="검색"
       />
       <button onClick={handleSearch}>검색</button>
-      
-      <div className={styles.Headerbar}>
         
         <button id="Headerbuttontwo" onClick={handlegoods}>
         상품
       </button>
       <button id="Headerbuttontwo" onClick={handleCategory}>
-        카테고리 검색
+        카테고리
       </button>
       <button id="Headerbuttontwo" onClick={handlemypage}>
         마이페이지
@@ -95,6 +93,7 @@ function Header() {
           로그인
         </button>
       )}
+    </div>
     </div>
   );
 }
