@@ -1,5 +1,6 @@
 
-#TopBanner {
+.bannerImage > img{
+  background-size: cover;
     cursor: pointer;
     
   }

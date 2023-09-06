@@ -58,14 +58,13 @@ function Main() {
 
   return (
     <div>
-      <div>
+      <div className={styles.bannerImage}>
         <Header />
         <img
   id="TopBanner"
   src={TopBanner}
   alt="TopBanner"
   onClick={handleTopBannerClick}
-  className={styles.bannerImage}
 />
 
 <h1 className={styles.heading}>새로운 상품</h1>
