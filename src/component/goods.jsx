@@ -6,7 +6,7 @@ import TopBanner from "../img/TopBanner.PNG";
 import SecondBanner from "../img/SecondBanner.PNG";
 import Header from "./header";
 import Footer from "./footer";
-import Category from "./Category";
+
 
 function Goods() {
   const [userId, setUserId] = useState("");
