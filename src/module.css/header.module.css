@@ -6,20 +6,41 @@
     width : 1061px;
     width : 100%;
     height: 80px;
+    
+    
 }
 .Headermodel > img  { 
     position : absolute;
     width : 188px;
     height: 60px;
-    transform: translate(5px, 10px);
+    
 }
 
-.button #Headerbuttontwo {
-    border : none;
+input {
+    font-size: 15px;
+    border-style: solid;
+    border-width : 3px;
+    transform: translate(150%, 75%);
+    border-radius: 4px;
+    
 }
+
+button{
+    font-size: 15px;
+    border : none;
+    background-color: white;
+    color: rgb(27, 26, 26);
+    padding : 0 30px;
+    
+}
+
+button #Headerbuttonone{
+    transform: translate(160%, 60%);
+}
+
+
 
 .Headerbar {
-    transform: translate(30%, 100%);
     text-decoration: none;
     border:none;
     color:aqua;

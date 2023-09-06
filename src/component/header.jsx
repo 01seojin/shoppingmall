@@ -64,7 +64,7 @@ function Header() {
         onChange={(e) => setSearchQuery(e.target.value)}
         placeholder="검색"
       />
-      <button onClick={handleSearch}>검색</button>
+      <button id="Headerbuttonone" onClick={handleSearch}>검색</button>
         
         <button id="Headerbuttontwo" onClick={handlegoods}>
         상품
