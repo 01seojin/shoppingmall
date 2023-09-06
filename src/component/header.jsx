@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../img/Logo.PNG";
+import styles from '../module.css/header.module.css';
 
 function Header() {
   const navigate = useNavigate();
@@ -48,13 +49,15 @@ function Header() {
   const UserId = localStorage.getItem("UserId");
 
   return (
-    <div className="Headermodel">
+    <div className={styles.Headermodel}>
       <img
         id="Headerlogo"
         onClick={handlemain}
         src={Logo}
         alt="Logo"
       />
+
+   
       <input
         type="text"
         value={searchQuery}
@@ -62,7 +65,10 @@ function Header() {
         placeholder="검색"
       />
       <button onClick={handleSearch}>검색</button>
-      <button id="Headerbuttonone" onClick={handlegoods}>
+      
+      <div className={styles.Headerbar}>
+        
+        <button id="Headerbuttontwo" onClick={handlegoods}>
         상품
       </button>
       <button id="Headerbuttontwo" onClick={handleCategory}>
@@ -77,6 +83,7 @@ function Header() {
       <button id="Headerbuttontwo" onClick={handleLikeList}>
         관심리스트
       </button>
+      </div>
       {token ? (
         <div id="SLogin">
           <button id="Headerbuttonthree" onClick={handleLogout}>
