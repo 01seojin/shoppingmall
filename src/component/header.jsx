@@ -81,7 +81,7 @@ function Header() {
       <button id="Headerbuttontwo" onClick={handleLikeList}>
         관심리스트
       </button>
-      </div>
+      
       {token ? (
         <div id="SLogin">
           <button id="Headerbuttonthree" onClick={handleLogout}>
@@ -93,6 +93,7 @@ function Header() {
           로그인
         </button>
       )}
+    </div>
     </div>
     </div>
   );
