@@ -1,10 +1,14 @@
 
 .bannerImage > img{
-    position : absolute;
+    position : relative;
     width : 1550px;
     height: 544px;
     
   }
+#TopBanner {
+    width: 60%;
+    justify-content: center;
+}
   
   
   #SecondBanner {
