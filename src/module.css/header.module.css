@@ -1,7 +1,4 @@
-*{   
-    margin : 0;
-    padding : 0; 
-}
+
 
 .Header{
     width : 1061px;
@@ -11,7 +8,7 @@
 }
 
 .Headermodel > img  { 
-    position : absolute;
+    float:left;
     width : 210px;
     height: 80px;
 }
@@ -23,8 +20,8 @@ input {
     border-style: solid;
     border-width : 3px;
     border-radius: 4%;
-    
     margin-top: 18px;
+    text-align: left;
 }
 
 button{
@@ -41,6 +38,5 @@ button{
     text-decoration: none;
     border:none;
     color:aqua;
-    text-align: center;
-    display :inline-block;
+    text-align: right;
 }

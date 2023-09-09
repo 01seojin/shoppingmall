@@ -25,7 +25,9 @@
    
   }
   
-
+.heading{
+  margin-top: 70px;
+}
 
   .flexContainer {
     display: flex;
