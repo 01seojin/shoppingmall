@@ -1,8 +1,10 @@
-
+*{
+  text-align:center;
+}
 .bannerImage > img{
     position : relative;
     width : 1550px;
-    height: 544px;
+    height: 600px;
     
   }
 #TopBanner {
@@ -24,25 +26,6 @@
   }
   
 
-  .select-dropdown {
-   
-  }
-  
-  
-  h1 {
-  font-size: 30px;
-  margin-top: 100px;
-  }
-  
-  
-  .loading-message {
-    
-  }
-  
-  .error-message {
-    
-  }
-  
 
   .flexContainer {
     display: flex;
@@ -53,7 +36,8 @@
 
   .productContainer {
     cursor: pointer;
-    margin: 50px;
-    padding: 60px;
-    width: 250px;
+    margin: 20px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
 }
