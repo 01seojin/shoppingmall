@@ -7,6 +7,7 @@
     width : 1061px;
     width : 100%;
     height: 80px;
+    margin-left: auto;
 }
 
 .Headermodel > img  { 
@@ -14,31 +15,30 @@
     width : 210px;
     height: 80px;
 }
- 
+
+
 input {
-    font-size: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
     border-style: solid;
     border-width : 3px;
-    transform: translate(200%, 75%);
-    border-radius: 4px;
+    border-radius: 4%;
 }
 
 button{
-    font-size: 15px;
+    font-size: 20px;
     border : none;
     background-color: white;
     color: rgb(27, 26, 26);
     padding : 0 30px;
 }
+ 
 
-button #Headerbuttonone{
-    
-    transform: translate(150%, 60%);
-}
 
 .Headerbar {
     text-decoration: none;
     border:none;
     color:aqua;
-    
+    margin-top: 15px;
+    float : right;
 }

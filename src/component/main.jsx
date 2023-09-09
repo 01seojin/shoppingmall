@@ -92,7 +92,7 @@ function Main() {
   className={styles.bannerImage}
 />
 
-<h1>{userId}님의 추천 상품</h1>
+<h1>{userId} 님의 추천 상품</h1>
 
       </div>
     </div>

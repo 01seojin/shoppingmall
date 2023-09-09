@@ -58,7 +58,7 @@ function Header() {
         alt="Logo"
       />
       <div className={styles.Headerbar}>
-      <input
+      <input 
         type="text"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
